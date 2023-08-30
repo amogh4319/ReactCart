@@ -8,7 +8,7 @@ const ProductItem = (props) => {
   const dispatch=useDispatch();
   const { title, price, description,id } = props;
   const addToCartHandler=()=>{
-    <Alert varia>Sending... sending CartData</Alert>
+    
     dispatch(cartActions.addItem({
       id,
       title,
